@@ -1,0 +1,253 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\SaonCrud\\SaonCrud.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.BusinessLogic\\Saon.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.BusinessLogic\\Saon.BusinessLogic.csproj",
+        "projectName": "Saon.BusinessLogic",
+        "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.BusinessLogic\\Saon.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\yvcastillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yvcastillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.DataAccess\\Saon.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.DataAccess\\Saon.DataAccess.csproj"
+              },
+              "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj": {
+                "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.DataAccess\\Saon.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.DataAccess\\Saon.DataAccess.csproj",
+        "projectName": "Saon.DataAccess",
+        "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.DataAccess\\Saon.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\yvcastillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yvcastillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj": {
+                "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj",
+        "projectName": "Saon.Entities",
+        "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj",
+        "packagesPath": "C:\\Users\\yvcastillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yvcastillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\SaonCrud\\SaonCrud.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\SaonCrud\\SaonCrud.csproj",
+        "projectName": "SaonCrud",
+        "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\SaonCrud\\SaonCrud.csproj",
+        "packagesPath": "C:\\Users\\yvcastillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\SaonCrud\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yvcastillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.BusinessLogic\\Saon.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.BusinessLogic\\Saon.BusinessLogic.csproj"
+              },
+              "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj": {
+                "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

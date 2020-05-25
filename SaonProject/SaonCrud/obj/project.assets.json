@@ -1,0 +1,137 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Saon.BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Saon.DataAccess": "1.0.0",
+          "Saon.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Saon.BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Saon.BusinessLogic.dll": {}
+        }
+      },
+      "Saon.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Saon.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Saon.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Saon.DataAccess.dll": {}
+        }
+      },
+      "Saon.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Saon.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Saon.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Saon.BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../Saon.BusinessLogic/Saon.BusinessLogic.csproj",
+      "msbuildProject": "../Saon.BusinessLogic/Saon.BusinessLogic.csproj"
+    },
+    "Saon.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Saon.DataAccess/Saon.DataAccess.csproj",
+      "msbuildProject": "../Saon.DataAccess/Saon.DataAccess.csproj"
+    },
+    "Saon.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Saon.Entities/Saon.Entities.csproj",
+      "msbuildProject": "../Saon.Entities/Saon.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Saon.BusinessLogic >= 1.0.0",
+      "Saon.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\yvcastillo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\SaonCrud\\SaonCrud.csproj",
+      "projectName": "SaonCrud",
+      "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\SaonCrud\\SaonCrud.csproj",
+      "packagesPath": "C:\\Users\\yvcastillo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\SaonCrud\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\yvcastillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.BusinessLogic\\Saon.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.BusinessLogic\\Saon.BusinessLogic.csproj"
+            },
+            "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj": {
+              "projectPath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.Entities\\Saon.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Saon.DataAccess/1.0.0": {
+        "dependencies": {
+          "Saon.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Saon.DataAccess.dll": {}
+        }
+      },
+      "Saon.Entities/1.0.0": {
+        "runtime": {
+          "Saon.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Saon.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Saon.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Saon.BusinessLogic\Saon.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Saon.Entities\Saon.Entities.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
