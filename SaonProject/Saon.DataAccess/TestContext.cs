@@ -26,7 +26,7 @@ namespace Saon.DataAccess
         }
 
         /// <summary>
-        /// Adding Data Test to te database
+        /// Adding Data Test to te database (migration excercise)
         /// </summary>
         /// <param name="modelBuilder"></param>
         
