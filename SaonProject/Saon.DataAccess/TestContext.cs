@@ -12,11 +12,14 @@ namespace Saon.DataAccess
     {
         public DbSet<Job> Jobs { get; set; }
 
+        private bool InMemory;
+
         private readonly IConfiguration Configuration;
 
-        public TestContext(IConfiguration configuration)
+        public TestContext(IConfiguration configuration, bool inMemory = false)
         {
             Configuration = configuration;
+            InMemory = inMemory;
         }            
 
         /// <summary>
@@ -27,9 +30,18 @@ namespace Saon.DataAccess
         {
             if (!options.IsConfigured)
             {
-                
-                string connectionString = ConfigurationExtensions.GetConnectionString(this.Configuration, "connectionString");
-                options.UseSqlServer(connectionString);
+
+
+                if (!InMemory)
+                {
+                    string connectionString = ConfigurationExtensions.GetConnectionString(this.Configuration, "connectionString");
+                    options.UseSqlServer(connectionString);
+
+                }
+                else
+                {
+                    options.UseInMemoryDatabase("Saon");
+                }
             }
         }
 

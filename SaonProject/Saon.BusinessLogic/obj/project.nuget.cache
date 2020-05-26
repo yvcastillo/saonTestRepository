@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rY+cVgenPWEkY2g0ZGKp0tn9J/jV7OIXPzoUSUOOWI02TDZVTSQzRioom7l5H3jVNG0W/N0lRBvTurKjS+L3Qg==",
+  "dgSpecHash": "gF6cC9zrw/mGlZUWfBCXmEvz0HX2UGnFvkUOU6iuvfwCPiF0Bu5JyQ0uR8wKRxYFlbZsrdbFY1jRGLiFrEAOqQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.BusinessLogic\\Saon.BusinessLogic.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.4\\microsoft.entityframeworkcore.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.4\\microsoft.entityframeworkcore.abstractions.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.4\\microsoft.entityframeworkcore.analyzers.3.1.4.nupkg.sha512",
+    "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.4\\microsoft.entityframeworkcore.inmemory.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.4\\microsoft.entityframeworkcore.relational.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.4\\microsoft.entityframeworkcore.sqlserver.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.4\\microsoft.extensions.caching.abstractions.3.1.4.nupkg.sha512",

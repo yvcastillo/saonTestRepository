@@ -13,10 +13,12 @@ namespace Saon.BusinessLogic
     public class BL_Job
     {
         private readonly IConfiguration Configuration;
+        private bool InMemory;
 
-        public BL_Job(IConfiguration configuration) {
+        public BL_Job(IConfiguration configuration, bool inMemory = false) {
 
             Configuration = configuration;
+            InMemory = inMemory;
         }
         /// <summary>
         /// This is the select equivalent, getting all job's list
@@ -24,7 +26,7 @@ namespace Saon.BusinessLogic
         /// <returns></returns>
         public async Task<List<Job>> ListJobs()
         {
-            using (var db = new TestContext(Configuration))
+            using (var db = new TestContext(Configuration, InMemory))
             {
                 return await db.Jobs.ToListAsync();
             }
@@ -37,7 +39,7 @@ namespace Saon.BusinessLogic
         /// <returns></returns>
         public async Task<Job> GetJob(int id)
         {
-            using (var db = new TestContext(Configuration))
+            using (var db = new TestContext(Configuration, InMemory))
             {
                 return await db.Jobs.FirstOrDefaultAsync(m => m.IdJob == id);
             }
@@ -50,7 +52,7 @@ namespace Saon.BusinessLogic
         /// <returns></returns>
         public async Task<int> CreateJob(Job newJob)
         {
-            using (var db = new TestContext(Configuration))
+            using (var db = new TestContext(Configuration, InMemory))
             {
                 db.Jobs.Add(newJob);
                 return await db.SaveChangesAsync();
@@ -65,7 +67,7 @@ namespace Saon.BusinessLogic
         /// <returns></returns>
          public async Task<int> UpdateJob(Job updatedJob)
         {
-            using (var db = new TestContext(Configuration))
+            using (var db = new TestContext(Configuration, InMemory))
             {
                 db.Jobs.Update(updatedJob);
                 return await db.SaveChangesAsync();
@@ -79,7 +81,7 @@ namespace Saon.BusinessLogic
         /// <returns></returns>
         public async Task<int> DeleteJob(Job deletedJob)
         {
-            using (var db = new TestContext(Configuration))
+            using (var db = new TestContext(Configuration, InMemory))
             {
                 db.Jobs.Remove(deletedJob);
                 return await db.SaveChangesAsync();
@@ -94,7 +96,7 @@ namespace Saon.BusinessLogic
 
         public bool JobExists(int id)
         {
-            using (var db = new TestContext(Configuration))
+            using (var db = new TestContext(Configuration, InMemory))
             {
                 return db.Jobs.Any(e => e.IdJob == id);
             }

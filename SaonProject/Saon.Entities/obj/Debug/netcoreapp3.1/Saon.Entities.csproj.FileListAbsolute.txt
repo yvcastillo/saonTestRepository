@@ -6,3 +6,4 @@ C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\obj\Debug\netco
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\obj\Debug\netcoreapp3.1\Saon.Entities.AssemblyInfo.cs
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\obj\Debug\netcoreapp3.1\Saon.Entities.dll
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\obj\Debug\netcoreapp3.1\Saon.Entities.pdb
+C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\obj\Debug\netcoreapp3.1\Saon.Entities.csprojAssemblyReference.cache
