@@ -8,16 +8,11 @@ using System.Text;
 
 namespace Saon.DataAccess
 {
-    public class TestContext : DbContext
+    public class TestContextMigration : DbContext
     {
         public DbSet<Job> Jobs { get; set; }
 
-        private readonly IConfiguration Configuration;
 
-        public TestContext(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }            
 
         /// <summary>
         /// if the dbContext  is not configurated yet, then do it
@@ -27,8 +22,9 @@ namespace Saon.DataAccess
         {
             if (!options.IsConfigured)
             {
-                
-                string connectionString = ConfigurationExtensions.GetConnectionString(this.Configuration, "connectionString");
+
+                //string connectionString = ConfigurationManager.AppSettings["connectionString"];
+                string connectionString = "Server=localhost\\sqlexpress;Database=Saon;Integrated Security=True;Trusted_Connection=True;";
                 options.UseSqlServer(connectionString);
             }
         }
@@ -37,7 +33,7 @@ namespace Saon.DataAccess
         /// Adding Data Test to te database (migration excercise)
         /// </summary>
         /// <param name="modelBuilder"></param>
-        
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -47,7 +43,7 @@ namespace Saon.DataAccess
                     {
                         IdJob = 1,
                         JobTitle = ".NET Developer",
-                        Description= "Descripcion about .net developer",
+                        Description = "Descripcion about .net developer",
                         CreatedAt = DateTime.Now,
                         ExpiredAt = DateTime.Now.AddDays(30)
                     },
@@ -73,4 +69,3 @@ namespace Saon.DataAccess
 
 
 }
-

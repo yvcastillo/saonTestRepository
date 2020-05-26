@@ -172,3 +172,4 @@ C:\Users\yvcastillo\Documents\saonTest\SaonProject\SaonCrud\obj\Debug\netcoreapp
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\SaonCrud\obj\Debug\netcoreapp3.1\Razor\Views\Jobs\Details.cshtml.g.cs
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\SaonCrud\obj\Debug\netcoreapp3.1\Razor\Views\Jobs\Edit.cshtml.g.cs
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\SaonCrud\obj\Debug\netcoreapp3.1\Razor\Views\Jobs\Index.cshtml.g.cs
+C:\Users\yvcastillo\Documents\saonTest\SaonProject\SaonCrud\bin\Debug\netcoreapp3.1\Saon.DataAccess.dll.config

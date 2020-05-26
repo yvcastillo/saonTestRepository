@@ -12,3 +12,4 @@ C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.BusinessLogic\obj\Debug\
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.BusinessLogic\obj\Debug\netcoreapp3.1\Saon.BusinessLogic.csproj.CopyComplete
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.BusinessLogic\obj\Debug\netcoreapp3.1\Saon.BusinessLogic.dll
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.BusinessLogic\obj\Debug\netcoreapp3.1\Saon.BusinessLogic.pdb
+C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.BusinessLogic\bin\Debug\netcoreapp3.1\Saon.DataAccess.dll.config

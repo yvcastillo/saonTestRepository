@@ -6,6 +6,9 @@ namespace Saon.Entities
 {
     public class Job
     {
+        /// <summary>
+        /// The class with all the fields of the Entity Job
+        /// </summary>
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdJob { get; set; }

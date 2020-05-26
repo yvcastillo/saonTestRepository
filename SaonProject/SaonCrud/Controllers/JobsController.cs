@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Saon.BusinessLogic;
 using Saon.DataAccess;
 using Saon.Entities;
@@ -14,10 +15,11 @@ namespace SaonCrud.Controllers
     public class JobsController : Controller
     {
         private BL_Job businessLogicJob;
+    
 
-        public JobsController()
+        public JobsController(IConfiguration configuration)
         {
-            businessLogicJob = new BL_Job();
+            businessLogicJob = new BL_Job(configuration);
         }
 
         // GET: Jobs
