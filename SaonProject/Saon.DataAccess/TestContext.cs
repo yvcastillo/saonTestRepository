@@ -33,42 +33,6 @@ namespace Saon.DataAccess
             }
         }
 
-        /// <summary>
-        /// Adding Data Test to te database (migration excercise)
-        /// </summary>
-        /// <param name="modelBuilder"></param>
-        
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Job>().HasData(
-                    new Job
-                    {
-                        IdJob = 1,
-                        JobTitle = ".NET Developer",
-                        Description= "Descripcion about .net developer",
-                        CreatedAt = DateTime.Now,
-                        ExpiredAt = DateTime.Now.AddDays(30)
-                    },
-                    new Job
-                    {
-                        IdJob = 2,
-                        JobTitle = ".QA Analyst",
-                        Description = "Descripcion about QA Analyst",
-                        CreatedAt = DateTime.Now,
-                        ExpiredAt = DateTime.Now.AddDays(30)
-                    },
-                    new Job
-                    {
-                        IdJob = 3,
-                        JobTitle = "Solution Architec",
-                        Description = "Descripcion about Solution Architec",
-                        CreatedAt = DateTime.Now,
-                        ExpiredAt = DateTime.Now.AddDays(30)
-                    }
-                );
-        }
     }
 
 

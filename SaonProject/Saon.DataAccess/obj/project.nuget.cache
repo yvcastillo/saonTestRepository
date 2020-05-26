@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/wy/g4HMvulB+VUgvTH2UyofaQ0yu1im0B6EUwp2hWG4jWoq5DoSZpBZgU2/YBJ19+Vsw3EBPXpF1r42aLH9yw==",
+  "dgSpecHash": "irjNoaDXW3+9P25GpEKbrNUTfuURB+h8KRMZxPxZpRB/sa71OnKsY+7A9ExizRJGq76FjmgDUQQQqGfTkZNzwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\yvcastillo\\Documents\\saonTest\\SaonProject\\Saon.DataAccess\\Saon.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -20,8 +20,13 @@
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.4\\microsoft.extensions.configuration.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.4\\microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.4\\microsoft.extensions.configuration.binder.3.1.4.nupkg.sha512",
+    "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.4\\microsoft.extensions.configuration.fileextensions.3.1.4.nupkg.sha512",
+    "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.4\\microsoft.extensions.configuration.json.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.4\\microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.4\\microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.4\\microsoft.extensions.fileproviders.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.4\\microsoft.extensions.fileproviders.physical.3.1.4.nupkg.sha512",
+    "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.4\\microsoft.extensions.filesystemglobbing.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.logging\\3.1.4\\microsoft.extensions.logging.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
     "C:\\Users\\yvcastillo\\.nuget\\packages\\microsoft.extensions.options\\3.1.4\\microsoft.extensions.options.3.1.4.nupkg.sha512",

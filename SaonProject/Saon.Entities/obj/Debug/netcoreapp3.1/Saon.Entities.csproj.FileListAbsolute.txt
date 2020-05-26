@@ -1,7 +1,6 @@
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\bin\Debug\netcoreapp3.1\Saon.Entities.deps.json
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\bin\Debug\netcoreapp3.1\Saon.Entities.dll
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\bin\Debug\netcoreapp3.1\Saon.Entities.pdb
-C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\obj\Debug\netcoreapp3.1\Saon.Entities.csprojAssemblyReference.cache
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\obj\Debug\netcoreapp3.1\Saon.Entities.csproj.CoreCompileInputs.cache
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\obj\Debug\netcoreapp3.1\Saon.Entities.AssemblyInfoInputs.cache
 C:\Users\yvcastillo\Documents\saonTest\SaonProject\Saon.Entities\obj\Debug\netcoreapp3.1\Saon.Entities.AssemblyInfo.cs
