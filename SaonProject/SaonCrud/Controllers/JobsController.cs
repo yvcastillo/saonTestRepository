@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Saon.BusinessLogic;
 using Saon.DataAccess;
 using Saon.Entities;
+using SaonCrud.Models;
 
 namespace SaonCrud.Controllers
 {
@@ -23,9 +24,57 @@ namespace SaonCrud.Controllers
         }
 
         // GET: Jobs
-        public async Task<IActionResult> Index()
+        //public async Task<IActionResult> Index()
+        //{
+        //    return View(await businessLogicJob.ListJobs());
+        //}
+
+        public async Task<IActionResult> Index(
+                   string sortOrder,
+                   string currentFilter,
+                   string searchString,
+                   int? pageNumber)
         {
-            return View(await businessLogicJob.ListJobs());
+
+            ViewData["CurrentSort"] = sortOrder;
+            ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
+
+            if (searchString != null)
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+            ViewData["CurrentFilter"] = searchString;
+
+            var jobsTask = await businessLogicJob.ListJobs();
+            var jobs = jobsTask.AsQueryable();
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                jobs = jobs.Where(s => s.JobTitle.Contains(searchString)
+                                       || s.Description.Contains(searchString));
+            }
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    jobs = jobs.OrderByDescending(s => s.JobTitle);
+                    break;
+                case "Date":
+                    jobs = jobs.OrderBy(s => s.CreatedAt);
+                    break;
+                case "date_desc":
+                    jobs = jobs.OrderByDescending(s => s.CreatedAt);
+                    break;
+                default:
+                    jobs = jobs.OrderBy(s => s.Description);
+                    break;
+            }
+
+            int pageSize = 8;
+            return View(PaginatedList<Job>.Create(jobs.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
 
         // GET: Jobs/Details/5

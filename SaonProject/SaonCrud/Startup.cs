@@ -27,10 +27,10 @@ namespace SaonCrud
         {
 
             //Configure DB Context for SQL Server
-            string connectionString = ConfigurationExtensions.GetConnectionString(this.Configuration, "connectionString");
-            services.AddDbContext<TestContext>(opt =>
-            opt.UseSqlServer(connectionString)); 
- 
+            //string connectionString = ConfigurationExtensions.GetConnectionString(this.Configuration, "connectionString");
+            //services.AddDbContext<TestContext>(opt =>
+            //opt.UseSqlServer(connectionString));
+
 
             services.AddControllersWithViews();
         }
